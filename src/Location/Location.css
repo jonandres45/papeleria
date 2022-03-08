@@ -1,0 +1,25 @@
+.backgroundLocation{
+    background: rgb(14, 14, 14);
+    color: white;
+}
+
+.backgroundLocation a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.backgroundLocation p{
+    font-size: 25px;
+}
+
+.logo_footer{
+    margin-top: 25px;
+    height: 200px;
+}
+
+@media (max-width: 600px) {
+    .logo_footer{
+        height: 100px;
+    }
+  }
