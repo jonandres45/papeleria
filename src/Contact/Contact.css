@@ -1,0 +1,44 @@
+.back-contact{
+    background-color: black;
+    height: auto;
+}
+.input-form-contact{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 22px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    border: solid rgb(95, 95, 95) 1px;
+}
+
+textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.btn-send-message{
+    background: #776338;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-send-message:hover{
+    transition: .3s;
+    background: #C1A66C;
+}

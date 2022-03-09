@@ -9,8 +9,7 @@ import ContactMailIcon from '@mui/icons-material/ContactMail';
 //import IconButton from '@mui/material/IconButton';
 //import MenuIcon from '@mui/icons-material/Menu';
 
-function Menu(){
-    
+function Menu(){    
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static" color="primary">

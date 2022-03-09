@@ -5,6 +5,8 @@ import {Inicio} from '../Inicio';
 import {Catalogo} from '../Catalogo';
 import {Skills} from '../Skills';
 import {Location} from '../Location';
+import {Contact} from '../Contact';
+import {TableArticles} from '../TableArticles';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 function App() {
   const theme = createTheme({
@@ -72,7 +74,9 @@ function App() {
           images={item.images}
         />
       ))}
+      <TableArticles/>
       <Skills/>
+      <Contact/>
       <Location/>
     </ThemeProvider>
   );
