@@ -5,7 +5,16 @@
 
 .swipperCatalogo{
   height: 100%;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 15px 15px 15px 15px;
+-moz-border-radius: 15px 15px 15px 15px;
+-webkit-border-radius: 15px 15px 15px 15px;
  /* background: rgb(0, 0, 0);*/
+}
+.swiper-button-prev, .swiper-button-next{
+  color: rgb(255, 248, 189);
 }
 /*  .swiper-slide {
     text-align: center;

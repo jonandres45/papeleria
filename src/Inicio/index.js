@@ -14,7 +14,7 @@ function Inicio(){
                 alignItems="center"
                 textAlign='center'
             >
-                <Grid item xs={11} md={6}>
+                <Grid item md={6}>
                     <Animation/>
                 </Grid>
                 <Grid item xs={11} md={6}>

@@ -23,7 +23,7 @@ function Location(){
                         Tel: 5572031860
                     </p>                                                
                     <p>
-                        <a href='mailto:papelerianotarialjireh@outlook.com'>papelerianotarialjireh@outlook.com</a>
+                        <a href='mailto:papelerianotarialjireh@outlook.com'>papelerianotarialjireh.com</a>
                     </p>
                 </Grid>
                 <Grid item xs={12}>

@@ -35,13 +35,13 @@ function App() {
       nombre:'Libro índice',
       description:'',
       reverse: "row-reverse",
-      images:['libroIndice/image1.jpg']
+      images:['libroIndice/image1.jpg', 'libroIndice/image2.jpg']
     },
     {
       nombre:'Carátulas de plástico en color y transparente en diferentes tamaños y colores.',
       description:'',
       reverse: '',
-      images:['caratulaPlasticoColor/image1.jpg','caratulaPlasticoColor/image2.jpg','caratulaPlasticoColor/image3.jpg']
+      images:['caratulaPlasticoColor/image1.jpg','caratulaPlasticoColor/image2.jpg']
     },
     {
       nombre:'Hoja testimonio con alta seguridad.',

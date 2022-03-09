@@ -33,7 +33,7 @@ function TableArticles(){
       <Box sx={{ flexGrow: 1, pb:15, pt:5 }} className="backgroundLocation">
             <Grid container spacing={2} justifyContent="center">
                 <Grid item xs={12} textAlign="center">
-                  <h1>Productos y precios</h1>
+                  <h1>Tabla de productos y precios</h1>
                 </Grid>
                 <Grid item xs={12} md={7}>
                   <TableContainer component={Paper} className="tableStyle">
@@ -55,7 +55,7 @@ function TableArticles(){
                               {row.producto}
                             </TableCell>
                             <TableCell align="center">{row.precio}</TableCell>
-                            <TableCell align="center">{row.precio}</TableCell>
+                            <TableCell align="center">{row.millar}</TableCell>
                           </TableRow>
                         ))}
                       </TableBody>
