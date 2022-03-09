@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {Menu} from '../Menu';
 import {Inicio} from '../Inicio';
+import {Title} from '../Title';
 import {Catalogo} from '../Catalogo';
 import {Skills} from '../Skills';
 import {Location} from '../Location';
@@ -65,6 +66,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Menu/>
       <Inicio/>
+      <Title/>
       {catalogo.map((item) =>(
         <Catalogo
           key={item.nombre}
