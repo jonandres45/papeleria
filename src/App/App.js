@@ -10,8 +10,7 @@ import {Contact} from '../Contact';
 import {TableArticles} from '../TableArticles';
 import { Whatsapp } from '../Whatsapp';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import { ParallaxProvider } from 'react-scroll-parallax';
-
+{/*https://www.npmjs.com/package/react-animate-on-scroll*/}
 function App() {
   const theme = createTheme({
     palette: {
@@ -67,7 +66,6 @@ function App() {
   ];
 
   return (
-    <ParallaxProvider>
       <ThemeProvider theme={theme}>
         <Menu/>
         <Inicio/>
@@ -87,7 +85,6 @@ function App() {
         <Location/>
         <Whatsapp/>
       </ThemeProvider>
-    </ParallaxProvider>
   );
 }
 
