@@ -11,3 +11,9 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid rgb(0, 0, 0);  /* creates padding around scroll thumb */
 }
+
+.my-thing{
+    background: red;
+    width: 100px;
+    height: 100px;
+}

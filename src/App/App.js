@@ -8,7 +8,10 @@ import {Skills} from '../Skills';
 import {Location} from '../Location';
 import {Contact} from '../Contact';
 import {TableArticles} from '../TableArticles';
+import { Whatsapp } from '../Whatsapp';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 function App() {
   const theme = createTheme({
     palette: {
@@ -62,25 +65,29 @@ function App() {
       images:['sellos/image1.jpg']
     },
   ];
+
   return (
-    <ThemeProvider theme={theme}>
-      <Menu/>
-      <Inicio/>
-      <Title/>
-      {catalogo.map((item) =>(
-        <Catalogo
-          key={item.nombre}
-          nombre ={item.nombre}
-          description= {item.description}
-          reverse={item.reverse}
-          images={item.images}
-        />
-      ))}
-      <TableArticles/>
-      <Skills/>
-      <Contact/>
-      <Location/>
-    </ThemeProvider>
+    <ParallaxProvider>
+      <ThemeProvider theme={theme}>
+        <Menu/>
+        <Inicio/>
+        <Title/>
+        {catalogo.map((item) =>(
+            <Catalogo
+              key={item.nombre}
+              nombre ={item.nombre}
+              description= {item.description}
+              reverse={item.reverse}
+              images={item.images}
+            />       
+        ))}
+        <TableArticles/>
+        <Skills/>
+        <Contact/>
+        <Location/>
+        <Whatsapp/>
+      </ThemeProvider>
+    </ParallaxProvider>
   );
 }
 

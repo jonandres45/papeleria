@@ -2,7 +2,7 @@ import React from 'react';
 import './Title.css';
 function Title(){
     return(
-        <div className='hero'>
+        <div className='hero' id="catalogo">
             <div className='promo'>
                 <h1>Catálogo</h1>
             </div>
