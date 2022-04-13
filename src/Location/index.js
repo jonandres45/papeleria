@@ -20,10 +20,10 @@ function Location(){
                         </Stack>
                     </a>
                     <p>
-                        Tel: 5572031860
+                        Tel: 55 72 03 18 60
                     </p>                                                
                     <p>
-                        <a href='mailto:papelerianotarialjireh@outlook.com'>papelerianotarialjireh.com</a>
+                        <a href='mailto:notarial@papeleriajireh.com'>notarial@papeleriajireh.com</a>
                     </p>
                 </Grid>
                 <Grid item xs={12}>
@@ -31,13 +31,13 @@ function Location(){
                 </Grid>
                 <Grid item xs={11} md={4}>
                     <p>
-                        Domicilio Presidente Miguel Alemán #136 mz-29 lt-21
+                        Av Leona Vicario MZA 13 LTE 49, SM 217, 217
                     </p>
                     <p>
-                        Col: El chamizal, Estado de México  C.P: 55720
+                        77518 Cancún, Q.R.
                     </p>
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.6935983527787!2d-99.04977912451977!3d19.597623320175657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f1a211cf8bd9%3A0x29ecc811fb62988d!2sPalacio%20Municipal%20de%20Ecatepec!5e0!3m2!1ses-419!2smx!4v1646536600422!5m2!1ses-419!2smx" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.675996581247!2d-86.87632928506507!3d21.165288685924594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d60759cddb290b6!2zMjHCsDA5JzU1LjAiTiA4NsKwNTInMjYuOSJX!5e0!3m2!1ses!2smx!4v1649837160403!5m2!1ses!2smx" 
                         width="99%" 
                         height="350"
                         allowFullScreen="" 
@@ -48,13 +48,13 @@ function Location(){
                 </Grid>
                 <Grid item xs={11} md={4}>
                     <p>
-                        Domicilio Presidente Miguel Alemán #136 mz-29 lt-21
+                        Presidente Miguel Alemán #136 mz-29 lt-21
                     </p>
                     <p>
                         Col: El chamizal, Estado de México  C.P: 55720
                     </p>
                     <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.6935983527787!2d-99.04977912451977!3d19.597623320175657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f1a211cf8bd9%3A0x29ecc811fb62988d!2sPalacio%20Municipal%20de%20Ecatepec!5e0!3m2!1ses-419!2smx!4v1646536600422!5m2!1ses-419!2smx" 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1880.4831667296244!2d-99.05676879921704!3d19.500084200000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1faf63b41bc93%3A0xd5b4618a22c42e0!2sPdte.%20Miguel%20Alem%C3%A1n%20Valdez%2C%20El%20Chamizal%2C%2055270%20Ecatepec%20de%20Morelos%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1649837046463!5m2!1ses!2smx" 
                         width="99%" 
                         height="350"
                         allowFullScreen="" 

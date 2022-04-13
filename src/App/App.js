@@ -24,19 +24,19 @@ function App() {
     {
       nombre:'Carátulas de papel',
       description:'',
-      reverse: "row-reverse",
+      reverse: "",
       images:['caratulaPapel/image1.jpg', 'caratulaPapel/image2.jpg', 'caratulaPapel/image4.jpg']
     },
     {
       nombre:'Carátula de plástico con papel',
       description:'',
-      reverse: '',
+      reverse: 'row-reverse',
       images:['caratulaPlasticoPapel/image1.jpg']
     },
     {
       nombre:'Libro índice personalizado en diferentes colores',
       description:'',
-      reverse: "row-reverse",
+      reverse: "",
       images:['libroIndicePerzonalizado/image2.jpg','libroIndicePerzonalizado/image1.jpg', 'libroIndice/image1.jpg', 'libroIndice/image2.jpg']
     },
     {

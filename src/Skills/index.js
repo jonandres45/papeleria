@@ -15,15 +15,15 @@ function Skills(){
                             <StarIcon className='iconStyle' sx={{ fontSize: 60 }}/>
                         </Grid>
                         <Grid item xs={10} md={3}>
-                            <h2 className='titleSkill'>Papelería JIREH</h2>
-                            <p className='infoSkill'>Somos Fabricantes en artículos personalizados para su notaría.</p>
+                            <h2 className='titleSkill arizonia'>Papelería Jireh</h2>
+                            <p className='infoSkill arizonia'>Somos Fabricantes en artículos personalizados para su notaría.</p>
                         </Grid>
                         <Grid item xs={12} md={1} textAlign="center">
                             <GppGoodIcon className='iconStyle' sx={{ fontSize: 60 }}/>
                         </Grid>
                         <Grid item xs={10} md={3}>
-                            <h2 className='titleSkill'>Seguridad</h2>
-                            <p className='infoSkill'> Le brindamos seguridad y calidad en sus insumos.</p>
+                            <h2 className='titleSkill arizonia'>Seguridad</h2>
+                            <p className='infoSkill arizonia'> Le brindamos seguridad y calidad en sus insumos.</p>
                         </Grid>
                     </Grid>
                 </Box>

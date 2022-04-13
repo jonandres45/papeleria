@@ -1,6 +1,9 @@
 body{
-  background-color: #151515;
+  background-color: #0A5598;
   color: #dcb778;
+
+  /*color: white;
+  background-image: linear-gradient(to bottom, #907038, #98773e, #9f7d44, #a7844a, #af8b50, #b69258, #bc9a60, #c3a168, #cbaa75, #d2b481, #dabd8e, #e1c79b);*/
 }
 .container-waves{
     width: 100px;
