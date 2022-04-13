@@ -3,6 +3,7 @@
     color: white;
 }
 
+
 .backgroundLocation a {
     color: white;
     text-decoration: none;
@@ -15,7 +16,7 @@
 
 .logo_footer{
     margin-top: 25px;
-    height: 200px;
+    height: 50vh;
 }
 
 @media (max-width: 600px) {

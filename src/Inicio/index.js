@@ -14,12 +14,12 @@ function Inicio(){
                 alignItems="center"
                 textAlign='center'
             >
-                <Grid item md={6}>
+                <Grid item md={5}>
                     <Animation/>
                 </Grid>
-                <Grid item xs={11} md={6}>
+                <Grid item xs={11} md={5}>
                     <img
-                        src="static/logo/JIREH_LEON.png"
+                        src="static/logo/logonuevo.png"
                         alt="Papeleria notarial jireh"
                         className="logoInicio"
                     >

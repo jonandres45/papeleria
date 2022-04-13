@@ -9,6 +9,7 @@ import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import './TableArticles.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function createData(producto, precio, millar){
     return {producto, precio, millar};
@@ -36,31 +37,36 @@ function TableArticles(){
                   <h1>Tabla de productos y precios</h1>
                 </Grid>
                 <Grid item xs={12} md={7}>
-                  <TableContainer component={Paper} className="tableStyle">
-                    <Table sx={{ minWidth: 400 }} aria-label="simple table">
-                      <TableHead style={{background: '#C1A66C'}}>
-                        <TableRow>
-                          <TableCell style={{color:'white'}}>PRODUCTO</TableCell>
-                          <TableCell align="center" style={{color:'white'}}>PRECIO UNITARIO</TableCell>
-                          <TableCell align="center" style={{color:'white'}}>PRECIO POR MILLAR</TableCell>
-                        </TableRow>
-                      </TableHead>
-                      <TableBody>
-                        {rows.map((row) => (
-                          <TableRow
-                            key={row.producto}
-                            sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                          >
-                            <TableCell component="th" scope="row">
-                              {row.producto}
-                            </TableCell>
-                            <TableCell align="center">{row.precio}</TableCell>
-                            <TableCell align="center">{row.millar}</TableCell>
+                  <ScrollAnimation 
+                    animateIn='bounceInUp'
+                    animateOut='bounceOutLeft'
+                  >
+                    <TableContainer component={Paper} className="tableStyle">
+                      <Table sx={{ minWidth: 400 }} aria-label="simple table">
+                        <TableHead style={{background: '#C1A66C'}}>
+                          <TableRow>
+                            <TableCell style={{color:'white'}}>PRODUCTO</TableCell>
+                            <TableCell align="center" style={{color:'white'}}>PRECIO UNITARIO</TableCell>
+                            <TableCell align="center" style={{color:'white'}}>PRECIO POR MILLAR</TableCell>
                           </TableRow>
-                        ))}
-                      </TableBody>
-                    </Table>
-                  </TableContainer>                
+                        </TableHead>
+                        <TableBody>
+                          {rows.map((row) => (
+                            <TableRow
+                              key={row.producto}
+                              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                            >
+                              <TableCell component="th" scope="row">
+                                {row.producto}
+                              </TableCell>
+                              <TableCell align="center">{row.precio}</TableCell>
+                              <TableCell align="center">{row.millar}</TableCell>
+                            </TableRow>
+                          ))}
+                        </TableBody>
+                      </Table>
+                    </TableContainer>
+                  </ScrollAnimation>
                 </Grid>
             </Grid>
       </Box>

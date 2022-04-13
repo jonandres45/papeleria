@@ -63,9 +63,9 @@ function Location(){
                     >
                     </iframe>
                 </Grid>
-                <Grid item xs={12} textAlign="center">
+                <Grid item xs={6} textAlign="center">
                     <img
-                        src="static/logo/JIREH_LEON.png"
+                        src="static/logo/logonuevo.png"
                         className='logo_footer'
                         alt="logo"
                     />

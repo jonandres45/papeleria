@@ -1,3 +1,7 @@
+body{
+  background-color: #151515;
+  color: #dcb778;
+}
 .container-waves{
     width: 100px;
     height: 100px;
@@ -28,6 +32,10 @@
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+.TextName{
+  font-size: 4vh;
+  font-weight: 100;
+}
 .textoMobil{
   display: none;
 }
@@ -36,6 +44,8 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     display: none;
   }*/
   .textoMobil{
+    font-size: 4vh;
+  font-weight: 100;
     display: block;
   }
 }
