@@ -1,7 +1,7 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
-import StarIcon from '@mui/icons-material/Star';
+import BalanceIcon from '@mui/icons-material/Balance';
 import GppGoodIcon from '@mui/icons-material/GppGood';
 import './Skills.css';
 
@@ -12,18 +12,18 @@ function Skills(){
                 <Box sx={{mb:18, mt:18}}>
                     <Grid container spacing={2} justifyContent='space-evenly' alignItems="center" sx={{ mt: 4 }}>
                         <Grid item xs={12} md={1} textAlign="center">
-                            <StarIcon className='iconStyle' sx={{ fontSize: 60 }}/>
+                            <BalanceIcon className='iconStyle' sx={{ fontSize: 60 }}/>
                         </Grid>
                         <Grid item xs={10} md={3}>
-                            <h2 className='titleSkill arizonia'>Papelería Jireh</h2>
-                            <p className='infoSkill arizonia'>Somos Fabricantes en artículos personalizados para su notaría.</p>
+                            <h2 className='arizonia'>Papelería Jireh</h2>
+                            <p className='arizonia'>Somos Fabricantes en artículos personalizados para su notaría.</p>
                         </Grid>
                         <Grid item xs={12} md={1} textAlign="center">
                             <GppGoodIcon className='iconStyle' sx={{ fontSize: 60 }}/>
                         </Grid>
                         <Grid item xs={10} md={3}>
-                            <h2 className='titleSkill arizonia'>Seguridad</h2>
-                            <p className='infoSkill arizonia'> Le brindamos seguridad y calidad en sus insumos.</p>
+                            <h2 className='arizonia'>Seguridad</h2>
+                            <p className='arizonia'> Le brindamos seguridad y calidad en sus insumos.</p>
                         </Grid>
                     </Grid>
                 </Box>

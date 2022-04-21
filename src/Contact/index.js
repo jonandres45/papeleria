@@ -16,7 +16,7 @@ function Contact(){
     const sendMessage = async (values)=>{
         setSuccess(false);
         setLoading(true);
-        await axios.post("https://rangelesmusic.com/mensaje.php", JSON.stringify(values));
+        await axios.post("https://papeleriajireh.com/mensaje.php", JSON.stringify(values));
         setSuccess(true);
         setLoading(false);
     }

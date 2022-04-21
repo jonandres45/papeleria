@@ -9,10 +9,11 @@ body {
 }
 
 .arizonia{
-  font-family: 'Arizonia', cursive;
-  font-size: 2.3em;
-  letter-spacing: 0.1em;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 2em;
+  letter-spacing: 0.12em;
   font-weight: 300;
+  color: white;
 }
 
 code {
